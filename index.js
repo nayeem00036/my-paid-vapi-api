@@ -11,7 +11,7 @@ const {
 const app = express();
 app.use(express.json());
 
-const payTo = "0x78ef6EF893bCa46c096f529f41005c416587A279";
+const payTo = "0x26F66DEeDb9dB65dd8a79A314cd545aa30f68683";
 
 const facilitator = new HTTPFacilitatorClient({
   url: "https://facilitator.payai.network"
